@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+  </head>
+  <body>
+    <table border="1px">
+      <thead>
+        <th>М'ясо</th>
+        <th>Грам</th>
+        <th>Вартість</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><dfn>Свинина</dfn></td>
+          <td>3000</td>
+          <td>500</td>
+        </tr> 
+        <tr>
+          <td><dfn>Курячі гомілки</dfn></td>
+          <td>1000</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <td><dfn>Яловичина</dfn></td>
+          <td>1500</td>
+          <td>300</td>
+        </tr>
+      </tbody>
+    </table>  
+      <form action="action_page.php">
+            <div class="container">
+              <h1>Форма для реєстрації на шашлики</h1>
+              <p>Будь ласка, введіть ваші дані якщо хочете їсти шашличок</p>
+
+              <label for="email"><b>E-mail</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+
+              <label for="psw"><b>Створіть пароль</b></label>
+              <input type="password" placeholder="Введіть пароль" name="psw" required>
+
+              <label for="psw-repeat"><b>Повторіть пароль</b></label>
+              <input type="password" placeholder="Повторіть пароль" name="psw-repeat" required>
+
+              <p><label for="psw-repeat"><b>Виберіть що будете їсти</b></label></p>
+              <input type="radio" name="мясо" value="mouse" checked> Свинина<br>
+              <input type="radio" name="мясо" value="mouse" checked> Курячі гомілки<br>
+              <input type="radio" name="мясо" value="mouse" checked> Яловичина<br>
+        
+              <button type="submit" class="registerbtn">Зареєструватися</button>
+            </div>
+      </form>
+      <a href="PageHTML.html">Скидаємось на їду за цим посиланням</a>
+  </body>
+</html>
