@@ -1,0 +1,130 @@
+/* .testClass > p{
+    color: chartreuse;
+}
+
+.testClass2{
+    color: crimson;
+}
+
+.testClass > label{
+    color: rgb(0, 204, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+[type="text"] {
+    color: darkkhaki;
+}
+
+[type="password"] {
+    color: indigo;
+}
+
+.testClass2 > label{
+    color: rgb(0, 204, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+p+label {
+    font-size: 50px;
+}
+
+label:hover {
+    color:lightsalmon
+}
+
+p::before{
+    content: "this is p "
+}
+
+.testClass2::before{
+content: "this is class2 "
+}
+
+#pID {
+    color: rgb(255, 145, 0);
+   font-size: 70px;
+} */
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+
+  table>thead {
+    background-color: #04AA6D;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+  
+table tr:nth-child(even) {
+    background-color: #9e9d9d;
+}
+
+table {
+    width: 100%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+   
+  label+input {
+      width: 100%;
+  }
+
+  label+input {
+      border-color: chartreuse;
+      height: 40px;
+  }
+
+  #mazafaka {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #mazafaka:hover {
+    background-color: #45a049;
+  }
+
+  ul{
+      width: 100%;
+      margin: 10px;
+  }
