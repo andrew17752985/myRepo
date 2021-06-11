@@ -63,7 +63,7 @@ table tr:hover {
 }
   
 table tr:nth-child(even) {
-    background-color: #9e9d9d;
+    background-color: #b4b3b3;
 }
 
 table {
@@ -128,3 +128,64 @@ input[type=text], select {
       width: 100%;
       margin: 10px;
   }
+
+  .block {
+    width: 280px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(https://www.gravatar.com/avatar/0e701b6571349036da776281d23d065a?s=300&d=identicon&r=PG&f=1);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #000;
+    display: block;
+  }
+
+  /* .krasivo {
+      width: 400px;
+      height: 100px;
+
+  }
+
+  .krasivo > img {
+      overflow: hidden;
+  } */
+  
+  /* .krasivo {
+    background-image: url(./вкусно.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border-color: black;
+    border: 6px solid #000;
+ } */
+
+ .supirkrasivo {
+     margin: auto;
+ }
+ 
+ .block:hover img {
+     display: none;
+ }
+
+ .block:hover {
+    position: relative;
+    background: #000;
+}
+
+.krasivo{
+    border: 6px solid;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+
+}
+.krasivo img{
+    display: block;
+    width: 400px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
