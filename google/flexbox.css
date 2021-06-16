@@ -1,0 +1,26 @@
+.odin {
+    border: 2px solid chocolate;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 20%); 
+}
+
+@media (min-width:769px){
+    .odin:hover { 
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 20%);
+        transform: translate(5px, -5px);
+        transition: all linear 0.2s;
+    }
+
+    .odin{
+        width: 60%;
+    }
+}
+
+.golovna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
