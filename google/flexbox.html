@@ -10,20 +10,58 @@
 <body>
     <div class="golovna">
         <div class="odin">
-            <img class="imageGoogle" src="google_logo.svg"  alt="" aria-hidden="true" data-noaft="">
-            <h1>Верстка сайту гугл</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quam omnis nihil in officia assumenda aliquid nemo laboriosam velit commodi ad deleniti itaque porro placeat iure amet, culpa voluptatibus molestias.</p>
+                <span>
+                     <img class="more" src="море.jpg">
+                </span>
+            <h1>Відпочинок на морі</h1>
+            <p><strong>2021</strong> рік тільки тішить спекотною погодою на початку літа! Тоді чому б не розглянути найпопулярніші місця де можна вдосталь натішитися екзотичними пляжами, рівномірною засмагою та популярним сервісом <strong>all incusive:</strong></p>
+            <button class="accordion"><strong>Натисніть та оберіть</strong></button>
+            <div class="panel">
+                <input type="radio" name="мясо" value="mouse" checked> Болгарія<br>
+                <input type="radio" name="мясо" value="mouse" checked> Турція<br>
+                <input type="radio" name="мясо" value="mouse" checked> Єгипет<br>
+                <input type="radio" name="мясо" value="mouse" checked> ОАЕ<br>
+                <input type="radio" name="мясо" value="mouse" checked>Одеса<br>
+            </div>
         </div>  
         <div class="odin">
-            <img class="imageGoogle" src="google_logo.svg"  alt="" aria-hidden="true" data-noaft="">
-            <h1>ще одна Верстка сайту гугл</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quam omnis nihil in officia assumenda aliquid nemo laboriosam velit commodi ad deleniti itaque porro placeat iure amet, culpa voluptatibus molestias.</p>
+            <img class="gory" src="гори.jpg"  alt="" aria-hidden="true" data-noaft="">
+            <h1>Віпочинок у горах</h1>
+            <p>Для людей які не надто люблять спеку і великі води, пропоную розглянути варіанти з походом у гори, відвідування аутентичних ярмарок, тематичної кухні в гуцульських помешканнях, та крутих посиденьок біля костра </p>
+            <button class="accordion"><strong>Натисніть та оберіть</strong></button>
+        <div class="panel">
+            <div>
+                <input type="radio" name="мясо" value="mouse" checked> Карпати<br>
+                <input type="radio" name="мясо" value="mouse" checked> Швейцарія<br>
+                <input type="radio" name="мясо" value="mouse" checked> Норвегія<br>
+            </div>
+        </div>
         </div>  
         <div class="odin">
-            <img class="imageGoogle" src="google_logo.svg"  alt="" aria-hidden="true" data-noaft="">
-            <h1>Очірідна верстка</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quam omnis nihil in officia assumenda aliquid nemo laboriosam velit commodi ad deleniti itaque porro placeat iure amet, culpa voluptatibus molestias.</p>
-        </div>  
-    </div>
+            <img class="company" src="компанія.jpg"  alt="" aria-hidden="true" data-noaft="">
+            <h1>Відпочинок на шашличках</h1>
+            <p>І звичайно для консервативних людей які не переносять важких, довгих, душних поїздок можемо запропонувати прикольні та мальовничі місця для проведення пікніку. Це ж так романтично і весело зібратися з друзями біля монгалу, розказувати байки, смішні історії, та планувати спільні поїздки на море!</p>
+             <button class="accordion"><strong>Натисніть та оберіть</strong></button>
+            <div class="panel">
+                <input type="radio" name="мясо" value="mouse" checked> Соцьке озеро<br>
+                <input type="radio" name="мясо" value="mouse" checked> Вишенське озеро<br>
+                <input type="radio" name="мясо" value="mouse" checked> Черипашенці<br>
+         </div>
+         <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
 </body>
 </html>

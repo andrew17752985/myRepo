@@ -4,6 +4,8 @@
     margin: 30px;
     border-radius: 10px;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 20%); 
+    background-color: rgb(197, 235, 247);
+    position: relative;
 }
 
 @media (min-width:769px){
@@ -14,7 +16,8 @@
     }
 
     .odin{
-        width: 60%;
+        width: 50%;
+        text-align: center;
     }
 }
 
@@ -24,3 +27,78 @@
     justify-content: center;
     align-items: center;
 }
+
+.more {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.gory {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.company {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+body {
+    background-image: url("карта.jfif");
+    background-size: 100%;
+    display: block;
+}
+
+.odin button {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 300px;
+    margin-left: auto;
+    background-color: rgb(252, 255, 57);
+    border-radius: 10px;
+    border-color: rgb(255, 218, 6);
+    box-shadow: rgb(128, 87, 0);
+
+ }
+
+ .odin h1 {
+     color: rgb(0, 0, 255);
+     text-transform: uppercase;
+ }
+
+ .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    text-align: center;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(255, 218, 53); 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+ 
+  .panel {
+background-color: rgb(197, 235, 247);
+ }
+ 
