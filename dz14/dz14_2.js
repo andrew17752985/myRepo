@@ -6,7 +6,7 @@ let valuta;
 function listener2(){
    grivnas = prompt('введіть суму в гривнях');
    if (typeof grivnas === 'undefined' || grivnas === null || grivnas == ""){
-    alert("Ти далбайоб?");
+    alert("Ти дурачок?");
    } else {
      
     alert("Чого так мало?");
@@ -15,11 +15,11 @@ function listener2(){
     console.log(valuta);
  
     if(valuta=="USD"){
-     alert("Вот твої копійки: "+grivnas*27);
+     alert("Вот твої копійки: "+grivnas/27);
     } else if(valuta=="EUR"){
-     alert("Вот твої копійки: "+grivnas*30);
+     alert("Вот твої копійки: "+grivnas/30);
     } else if(valuta=="dogecoin"){
-     alert("Вот твої копійки: "+grivnas*1000);
+     alert("Вот твої копійки: "+grivnas/1000);
     } else {
         alert("Ти точно не дибіл?");
     }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function filterRange(arr, a, b) {
+    let resultArr = [];
+    return arr.map((item) => { if (item < b && item >= a) resultArr.push(item) });
+}
+let arr = [5, 3, 8, 1];
+ 
+let filtered = filterRange(arr, 1, 4);
+ 
+console.log(filtered); // 3,1 (совпадающие значения)
+ 
+console.log(arr); // 5,3,8,1 (без изменений)
+  }
+      </script>
+    <script src="style.js"></script>
+</body>
+</html>
